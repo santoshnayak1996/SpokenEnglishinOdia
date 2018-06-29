@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background"
+        android:orientation="vertical"
+
+        tools:context=".MainActivity">
+    <!-- Numbers category -->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_numbers">
+            <TextView
+                android:id="@+id/numbers"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_numbers" />
+        </FrameLayout>
+
+
+
+        <!-- Family category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_family">
+            <TextView
+                android:id="@+id/family"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_family" />
+        </FrameLayout>
+
+        <!-- Colors category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_colors">
+            <TextView
+                android:id="@+id/colors"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_colors" />
+        </FrameLayout>
+
+        <!-- Phrases category -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_phrases">
+            <TextView
+                android:id="@+id/phrases"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_phrases" />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_body">
+            <TextView
+                android:id="@+id/body"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_body" />
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_seasons">
+            <TextView
+                android:id="@+id/seasons"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_Seasons" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_time">
+            <TextView
+                android:id="@+id/time"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_time" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_direction">
+            <TextView
+                android:id="@+id/direction"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_direction" />
+
+        </FrameLayout>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_animals">
+            <TextView
+                android:id="@+id/animals"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_animals" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_beast">
+            <TextView
+                android:id="@+id/beast"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_beast" />
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_birds">
+            <TextView
+                android:id="@+id/birds"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_birds" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

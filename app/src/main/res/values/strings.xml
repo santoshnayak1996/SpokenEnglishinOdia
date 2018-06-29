@@ -1,0 +1,24 @@
+<resources>
+
+    <string name="app_name">Odia Word Book</string>
+
+
+    <string name="category_phrases">Zodiac signs (ରାଶି)</string>
+    <string name="category_body">Body Parts (ଅଙ୍ଗ ପ୍ରତ୍ୱେଙ୍ଗ)</string>
+    <string name="category_Seasons">Seasons (ଋତୁ)</string>
+    <string name="category_time">Time (ସମୟ) </string>
+    <string name="category_direction">Direction (ଦିଗ) </string>
+
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_colors">Colors (ରଙ୍ଗ)</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_numbers">Numbers (ସଂଖ୍ୟା)</string>
+    <string name="category_animals">Animals (ପ୍ରାଣୀ ଜଗତ)</string>
+    <string name="category_beast">Beast (ପଶୁ)</string>
+    <string name="category_birds">Birds (ପକ୍ଷୀ)</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_family">Family Members (ପରିବାର ସଦସ୍ୟ)</string>
+</resources>

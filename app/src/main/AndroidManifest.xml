@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thefactbuzz.spokenenglishinodia">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NumbersActivity"
+            android:label="Numbers (ସଂଖ୍ୟା)" />
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="Zodiac Signs (ରାଶି )" />
+        <activity
+            android:name=".ColorsActivity"
+            android:label="Colors (ରଙ୍ଗ)" />
+        <activity
+            android:name=".FamilyActivity"
+            android:label="Family (ପରିବାର)" />
+        <activity
+            android:name=".BodyActivity"
+            android:label="Body (ଅଙ୍ଗ ପ୍ରତେଙ୍ଗ)" />
+        <activity
+            android:name=".SeasonsActivity"
+            android:label="Seasons (ଋତୁ )" />
+        <activity
+            android:name=".TimeActivity"
+            android:label="Time (ସମୟ  )" />
+        <activity
+            android:name=".DirectionActivity"
+            android:label="Direction (ଦିଗ)" />
+
+        <activity
+            android:name=".AnimalsActivity"
+            android:label="Annimals (ପ୍ରାଣୀ ଜଗତ)" />
+
+        <activity
+        android:name=".BeastActivity"
+        android:label="Beast (ପଶୁ)" />
+        <activity
+            android:name=".BirdsActivity"
+            android:label="Birds (ପକ୍ଷୀ)" />
+
+
+        <activity android:name=".about_me" android:label="About this App"></activity>
+    </application>
+
+</manifest>
