@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.thefactbuzz.spokenenglishinodia">
+    package="com.odiawordbook.spokenenglishinodia">
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -54,6 +54,30 @@
         <activity
             android:name=".BirdsActivity"
             android:label="Birds (ପକ୍ଷୀ)" />
+
+        <activity
+            android:name=".WormActivity"
+            android:label="Worm and Insect (କୀଟ ଓ ପତଙ୍ଗ)" />
+        <activity
+            android:name=".SoundActivity"
+            android:label="Sound of Animals and Birds (ପଶୁ ଓ ପକ୍ଷୀ ଙ୍କ ରାବ )" />
+        <activity
+        android:name=".TreeActivity"
+        android:label="Tree and its Parts(ବୃକ୍ଷ ଓ ତାର ଅଂଶ)" />
+        <activity
+            android:name=".FruitActivity"
+            android:label="Various Fruits(ବିଭିନ ଫଳ)" />
+        <activity
+            android:name=".FlowerActivity"
+            android:label="Various Flowers(ବିଭିନ ଫୁଲ)" />
+        <activity
+            android:name=".ReptilesActivity"
+            android:label="Reptiles(ସରୀସୃପ)" />
+        <activity
+            android:name=".SpicesActivity"
+            android:label="Spices (ମସଲା ଦ୍ରବ୍ୟ)" />
+
+
 
 
         <activity android:name=".about_me" android:label="About this App"></activity>

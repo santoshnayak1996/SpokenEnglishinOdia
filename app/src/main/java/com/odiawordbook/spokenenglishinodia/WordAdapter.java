@@ -1,4 +1,4 @@
-package com.thefactbuzz.spokenenglishinodia;
+package com.odiawordbook.spokenenglishinodia;
 
 import android.app.Activity;
 import android.support.annotation.NonNull;

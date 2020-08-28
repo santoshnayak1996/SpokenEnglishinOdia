@@ -1,4 +1,4 @@
-package com.thefactbuzz.spokenenglishinodia;
+package com.odiawordbook.spokenenglishinodia;
 
 import org.junit.Test;
 

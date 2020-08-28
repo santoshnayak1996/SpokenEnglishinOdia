@@ -18,7 +18,15 @@
     <string name="category_animals">Animals (ପ୍ରାଣୀ ଜଗତ)</string>
     <string name="category_beast">Beast (ପଶୁ)</string>
     <string name="category_birds">Birds (ପକ୍ଷୀ)</string>
+    <string name="category_worm">Worm and Insect (କୀଟ ଓ ପତଙ୍ଗ)</string>
+    <string name="category_sound">Sound of Animals and Birds (ପଶୁ ଓ ପକ୍ଷୀ ଙ୍କ ରାବ )</string>
+    <string name="category_tree">Tree and its Parts(ବୃକ୍ଷ ଓ ତାର ଅଂଶ)</string>
+    <string name="category_fruits">Various Fruits(ବିଭିନ ଫଳ)</string>
+    <string name="category_flowers">Various Flowers(ବିଭିନ ଫୁଲ)</string>
 
+    <string name="category_reptiles">Reptiles(ସରୀସୃପ)</string>
     <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_family">Family Members (ପରିବାର ସଦସ୍ୟ)</string>
+    <string name="category_spices">Spices (ମସଲା ଦ୍ରବ୍ୟ)</string>
+
 </resources>

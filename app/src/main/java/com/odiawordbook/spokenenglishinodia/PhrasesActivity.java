@@ -1,4 +1,4 @@
-package com.thefactbuzz.spokenenglishinodia;
+package com.odiawordbook.spokenenglishinodia;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,13 +11,16 @@ import com.google.android.gms.ads.MobileAds;
 
 import java.util.ArrayList;
 
-public class SeasonsActivity extends AppCompatActivity {
+public class PhrasesActivity extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
+
+
+        /*
         MobileAds.initialize(this,
                 "ca-app-pub-7962001766479415~2911390601");
 
@@ -37,20 +40,27 @@ public class SeasonsActivity extends AppCompatActivity {
             }
         });
 
+
+        */
         ArrayList<word> words = new ArrayList<word>();
 
-        words.add(new word("Summer","ଗ୍ରୀଷ୍ମ"));
-        words.add(new word("Rainy","ବର୍ଷା"));
-        words.add(new word("Autumn","ଶରତ "));
-        words.add(new word("Dewy","ହେମନ୍ତ"));
-        words.add(new word("Winter","ଶୀତ"));
-        words.add(new word("Spring","ବସନ୍ତ"));
+        words.add(new word("Aries","ମେଷ"));
+        words.add(new word("Taurus","ବୃଷ"));
+        words.add(new word("Gemini","ମିଥୁନ "));
+        words.add(new word("Cancer","କର୍କଟ"));
+        words.add(new word("Leo","ସିଂହ"));
+        words.add(new word("Virgo","କନ୍ୟା"));
+        words.add(new word("Libra","ତୁଳା"));
+        words.add(new word("Scorpio","ବିଛା"));
+        words.add(new word("Sigittarius","ଧନୁ"));
+        words.add(new word("Capricorn","ମକର"));
+
+        words.add(new word("Aquarious","କୁମ୍ଭ"));
+        words.add(new word("Pisces","ମୀନ"));
 
 
 
-
-
-        WordAdapter adapter = new WordAdapter(this, words, R.color.category_seasons);
+        WordAdapter adapter = new WordAdapter(this, words, R.color.category_phrases);
 
 
 
@@ -59,9 +69,12 @@ public class SeasonsActivity extends AppCompatActivity {
 
         listView.setAdapter(adapter);
     }
+
+    /*
     private void showInterstitial() {
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         }
     }
+    */
 }

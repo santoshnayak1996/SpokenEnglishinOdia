@@ -1,4 +1,4 @@
-package com.thefactbuzz.spokenenglishinodia;
+package com.odiawordbook.spokenenglishinodia;
 
 import android.content.ActivityNotFoundException;
 import android.content.DialogInterface;
@@ -21,7 +21,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
-import com.thefactbuzz.spokenenglishinodia.BeastActivity;
+import com.odiawordbook.spokenenglishinodia.BeastActivity;
 
 import java.util.Set;
 
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        MobileAds.initialize(this,
+       /* MobileAds.initialize(this,
                 "ca-app-pub-7962001766479415~2911390601");
 
         mInterstitialAd = new InterstitialAd(this);
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-
+*/
 
 
 
@@ -204,6 +204,92 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(birdsIntent);
             }
         });
+
+
+        TextView worm = (TextView) findViewById(R.id.worm);
+        // Set a click listener on that View
+        worm.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the colors View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent wormIntent = new Intent(MainActivity.this, WormActivity.class);
+                startActivity(wormIntent);
+            }
+        });
+
+
+        TextView sound = (TextView) findViewById(R.id.sound);
+        // Set a click listener on that View
+        sound.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the colors View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent soundIntent = new Intent(MainActivity.this, SoundActivity.class);
+                startActivity(soundIntent);
+            }
+        });
+
+        TextView tree = (TextView) findViewById(R.id.tree);
+        // Set a click listener on that View
+        tree.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the colors View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent treeIntent = new Intent(MainActivity.this,TreeActivity.class);
+                startActivity(treeIntent);
+            }
+        });
+
+        TextView fruits = (TextView) findViewById(R.id.fruits);
+        // Set a click listener on that View
+        fruits.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the colors View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent fruitIntent = new Intent(MainActivity.this,FruitActivity.class);
+                startActivity(fruitIntent);
+            }
+        });
+
+        TextView flowers = (TextView) findViewById(R.id.flowers);
+        // Set a click listener on that View
+        flowers.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the colors View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent flowersIntent = new Intent(MainActivity.this,FlowerActivity.class);
+                startActivity(flowersIntent);
+            }
+        });
+
+        TextView reptiles = (TextView) findViewById(R.id.reptiles);
+        // Set a click listener on that View
+        reptiles.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the colors View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent reptilesIntent = new Intent(MainActivity.this,ReptilesActivity.class);
+                startActivity(reptilesIntent);
+            }
+        });
+
+
+        TextView spices = (TextView) findViewById(R.id.spices);
+        // Set a click listener on that View
+        spices.setOnClickListener(new View.OnClickListener() {
+            // The code in this method will be executed when the colors View is clicked on.
+            @Override
+            public void onClick(View view) {
+                Intent spicesIntent = new Intent(MainActivity.this,SpicesActivity.class);
+                startActivity(spicesIntent);
+            }
+        });
+
+
+
+
+
+
     }
 
     //menu by santosh
@@ -274,12 +360,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //dialog box code ended
+
+   /*
     private void showInterstitial() {
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         }
     }
 
-
+*/
 
 }

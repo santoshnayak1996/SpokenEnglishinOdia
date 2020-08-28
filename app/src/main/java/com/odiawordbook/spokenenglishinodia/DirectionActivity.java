@@ -1,4 +1,4 @@
-package com.thefactbuzz.spokenenglishinodia;
+package com.odiawordbook.spokenenglishinodia;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,15 +11,13 @@ import com.google.android.gms.ads.MobileAds;
 
 import java.util.ArrayList;
 
-public class PhrasesActivity extends AppCompatActivity {
+public class DirectionActivity extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
-
-
         MobileAds.initialize(this,
                 "ca-app-pub-7962001766479415~2911390601");
 
@@ -38,25 +36,27 @@ public class PhrasesActivity extends AppCompatActivity {
                 showInterstitial();
             }
         });
+
         ArrayList<word> words = new ArrayList<word>();
 
-        words.add(new word("Aries","ମେଷ"));
-        words.add(new word("Taurus","ବୃଷ"));
-        words.add(new word("Gemini","ମିଥୁନ "));
-        words.add(new word("Cancer","କର୍କଟ"));
-        words.add(new word("Leo","ସିଂହ"));
-        words.add(new word("Virgo","କନ୍ୟା"));
-        words.add(new word("Libra","ତୁଳା"));
-        words.add(new word("Scorpio","ବିଛା"));
-        words.add(new word("Sigittarius","ଧନୁ"));
-        words.add(new word("Capricorn","ମକର"));
 
-        words.add(new word("Aquarious","କୁମ୍ଭ"));
-        words.add(new word("Pisces","ମୀନ"));
+        words.add(new word("East","ପୂର୍ବ"));
+        words.add(new word("West","ପଶ୍ଚିମ"));
+        words.add(new word("North","ଉତ୍ତର "));
+        words.add(new word("South","ଦକ୍ଷିଣ"));
+        words.add(new word("South-East","ଆଗ୍ନେୟ"));
+        words.add(new word("North-east","ଐଶାନ୍ୟ"));
+        words.add(new word("North-west","ବାୟବ"));
+        words.add(new word("South-West","ନୈରତ"));
+        words.add(new word("Upward","ଉର୍ଦ୍ଧ"));
+        words.add(new word("Beneath"," ଅଧଃ"));
 
 
 
-        WordAdapter adapter = new WordAdapter(this, words, R.color.category_phrases);
+
+
+
+        WordAdapter adapter = new WordAdapter(this, words, R.color.category_direction);
 
 
 
@@ -65,7 +65,6 @@ public class PhrasesActivity extends AppCompatActivity {
 
         listView.setAdapter(adapter);
     }
-
     private void showInterstitial() {
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();

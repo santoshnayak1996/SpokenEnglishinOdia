@@ -153,6 +153,92 @@
 
         </FrameLayout>
 
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_worm">
+        <TextView
+            android:id="@+id/worm"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_worm" />
+
+    </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_sound">
+            <TextView
+                android:id="@+id/sound"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_sound" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_tree">
+            <TextView
+                android:id="@+id/tree"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_tree" />
+
+        </FrameLayout>
+
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_fruits">
+        <TextView
+            android:id="@+id/fruits"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_fruits" />
+
+    </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_flowers">
+            <TextView
+                android:id="@+id/flowers"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_flowers" />
+
+        </FrameLayout>
+
+        <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_reptiles">
+        <TextView
+            android:id="@+id/reptiles"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/category_reptiles" />
+
+    </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/category_spices">
+            <TextView
+                android:id="@+id/spices"
+                style="@style/CategoryStyle"
+                android:background="?android:attr/selectableItemBackground"
+                android:text="@string/category_spices" />
+
+        </FrameLayout>
+
 
     </LinearLayout>
 

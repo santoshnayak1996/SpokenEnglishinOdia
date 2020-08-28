@@ -47,4 +47,12 @@
 
     <color name="category_time">#59A601</color>
     <color name="category_direction">#076FBC</color>
+    <color name="category_worm">#2B897B</color>
+    <color name="category_sound">#1B6A15</color>
+    <color name="category_tree">#E29B04</color>
+    <color name="category_fruits">#CA5600</color>
+    <color name="category_flowers">#7E00A0</color>
+    <color name="category_reptiles">#B40497</color>
+    <color name="category_spices">#8F004C</color>
+
 </resources>

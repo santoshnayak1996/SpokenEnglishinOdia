@@ -1,4 +1,4 @@
-package com.thefactbuzz.spokenenglishinodia;
+package com.odiawordbook.spokenenglishinodia;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -18,6 +18,8 @@ public class TimeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.word_list);
+
+        /*
         MobileAds.initialize(this,
                 "ca-app-pub-7962001766479415~2911390601");
 
@@ -36,6 +38,7 @@ public class TimeActivity extends AppCompatActivity {
                 showInterstitial();
             }
         });
+        */
 
         ArrayList<word> words = new ArrayList<word>();
 
@@ -89,9 +92,12 @@ public class TimeActivity extends AppCompatActivity {
 
         listView.setAdapter(adapter);
     }
+
+    /*
     private void showInterstitial() {
         if (mInterstitialAd.isLoaded()) {
             mInterstitialAd.show();
         }
     }
+    */
 }
