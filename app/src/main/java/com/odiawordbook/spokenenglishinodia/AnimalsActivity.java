@@ -19,6 +19,7 @@ public class AnimalsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.word_list);
 
         ArrayList<word> words = new ArrayList<word>();
